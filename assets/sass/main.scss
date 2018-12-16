@@ -1,0 +1,14 @@
+
+ 
+
+h2 {
+
+    @apply .w-full .pt-6 .text-4xl .tracking-wide .font-munro; 
+}
+
+a {
+    @apply .text-yellow;
+    font-weight: 700;
+   letter-spacing: .5px;
+    transition: color .5s;
+}
