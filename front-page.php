@@ -68,9 +68,10 @@
         ?>
 
             <h3 class="">
-                <li class="py-4"><a
-                        href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title ?></a><time
-                        class="font-normal whitespace-no-wrap"><?php echo $date ?> </time></li>
+                <li class="py-4"><a href="<?php if($external) { echo $external;} else { the_permalink();} ?>">
+                        <?php echo $title ?></a><time class="font-normal whitespace-no-wrap"> <?php echo $date ?>
+                    </time>
+                </li>
             </h3>
 
 

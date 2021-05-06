@@ -19,7 +19,7 @@
 
         <?php if ($cat == " writing") { ?>
 
-        <a href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title . $cat ?></a>
+        <a href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title ?></a>
         <time class="pl-4 font-normal"> <?php echo  $date  ?> </time>
         <?php }; ?>
 
