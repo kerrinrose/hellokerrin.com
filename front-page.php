@@ -51,7 +51,7 @@
     </ul>
 
 </div>
-<button class="text-center w-full"><a href="">See More Work</a></button>
+<button class="text-center w-full"><a href="/category/work/">See More Work</a></button>
 </div>
 
 <div class="fade-1 my-24 ">
@@ -63,10 +63,13 @@
       while ($query->have_posts() ) : $query -> the_post();
         $title = get_the_title();
         $date = get_the_date();
+        $external = get_post_meta($post->ID, "external_link", true);
+
         ?>
 
             <h3 class="">
-                <li class="py-4"><a href="<?php the_permalink(); ?>"><?php echo $title ?></a> <time
+                <li class="py-4"><a
+                        href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title ?></a><time
                         class="font-normal whitespace-no-wrap"><?php echo $date ?> </time></li>
             </h3>
 
@@ -80,7 +83,7 @@
         </ul>
     </div>
 
-    <button class="text-center mt-4 w-full"><a href="">See More Writing</a></button>
+    <button class="text-center mt-4 w-full"><a href="/category/writing/">See More Writing</a></button>
 </div>
 
 
