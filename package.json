@@ -1,10 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "dev": "webpack --watch",
     "prod": "cross-env NODE_ENV=production webpack --no-progress"
   },
   "devDependencies": {
+    "babel-loader": "^8.0.4",
     "cross-env": "^5.1",
     "css-loader": "^0.28.10",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
@@ -22,6 +23,7 @@
     "node-sass": "^4.10.0",
     "resolve-url-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
-    "save-dev": "^2.0.0"
+    "save-dev": "^2.0.0",
+    "scrollreveal": "^4.0.5"
   }
 }

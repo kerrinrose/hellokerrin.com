@@ -1,14 +1,195 @@
 
  
+ 
+ html.sr .load-hidden, html.sr .fade-1 {
+    visibility: hidden;
+}
+
+body {
+
+    max-width: 1000px;
+    @apply text-xl;
+}
+
+.content {
+
+    li {
+        padding-bottom: 10px;
+        margin-left:30px;
+    }
+
+    .wp-block-image {
+
+        text-align: center;
+    }
+
+    figcaption {
+
+        @apply pb-6;
+        font-style: italic;
+
+    }
+
+    h2 {
+
+        @apply font-source text-3xl px-6 pt-6;
+
+
+        @media (max-width: 576px) {
+
+            padding: 0px;
+        }
+    }
+
+    img {
+        @apply my-4;
+
+    }
+    p {
+
+        @apply px-6 py-3;
+
+        @media (max-width: 576px) {
+
+            padding: 0px;
+        }
+    }
+
+
+
+
+
+}
 
 h2 {
 
     @apply .w-full .pt-6 .text-4xl .tracking-wide .font-munro; 
 }
 
-a {
-    @apply .text-yellow;
-    font-weight: 700;
-   letter-spacing: .5px;
-    transition: color .5s;
+
+
+//yellow-theme
+.theme-1 {
+    .wp-block-quote {
+        @apply .text-yellow
+
+    }
+
+    a {
+        @apply .text-yellow .text-xl;
+        font-weight: 600;
+       letter-spacing: .5px;
+        transition: color .5s;
+
+    
+        &:hover {
+            color: #BF8019;
+        }
+    }
+
+    h2 {
+
+        span {
+
+            @apply .text-yellow; 
+        }
+    }
 }
+
+//blue theme
+.theme-2 {
+
+    .wp-block-quote {
+        @apply .text-blue
+
+    }
+
+    a {
+        @apply .text-blue .text-xl;
+        font-weight: 600;
+       letter-spacing: .5px;
+        transition: color .5s;
+    
+        &:hover {
+            color: #189AC4;
+        }
+    }
+
+    h2 {
+
+        span {
+
+            @apply .text-blue; 
+        }
+    }
+}
+//red theme
+.theme-3 {
+
+    .wp-block-quote {
+        @apply .text-red
+
+    }
+
+    a {
+        @apply .text-red .text-xl;
+        font-weight: 600;
+       letter-spacing: .5px;
+        transition: color .5s;
+    
+        &:hover {
+            color: #BB3E4B;
+        }
+    }
+
+    h2 {
+
+        span {
+
+            @apply .text-red; 
+        }
+    }
+}
+
+img {
+
+    object-fit: cover;
+}
+
+
+.object-top {
+
+object-position: top;
+}
+
+.object-bottom {
+
+    object-position: bottom;
+    }
+
+    @media (min-width: 576px) {
+
+    .large-img {
+        margin-left: -35vw;
+        margin-right: -35vw;
+        max-width: 70vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+    }}
+
+    .wp-block-quote {
+
+        font-weight: 200;
+        font-style: italic;
+        font-size: 22px;
+        padding: 20px;
+        line-height: 40px
+    }
+
+    cite {
+
+        font-style: normal;
+        padding: 20px;
+        font-size: 18px;
+    }
