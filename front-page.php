@@ -15,7 +15,7 @@
         <p>
 
 
-            I'm a Userr Experience Designer who also likes to tinker in Visual Design, Branding, Motion Graphics and Web
+            I'm a User Experience Designer who also likes to tinker in Visual Design, Branding, Motion Graphics and Web
             Development. I’m into anything digital, and then some. I studied Interactive Multimedia, the perfect fusion
             of design and technology, and the program has left me with an unremitting desire to create. I believe it's
             important to give back a portion of my time and seek to volunteer and do pro-bono work for important causes
