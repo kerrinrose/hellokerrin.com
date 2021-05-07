@@ -33,7 +33,7 @@
     <h2>work</h2>
     <ul class="list-reset">
         <?php
-      $query = new WP_Query( array( 'category_name' => 'work'  ) );
+      $query = new WP_Query( array( 'category_name' => 'work', 'posts_per_page' => 4 ) );
       while ($query->have_posts() ) : $query -> the_post();
         $title = get_the_title();
         $thumbnail = get_the_post_thumbnail_url();
@@ -59,7 +59,7 @@
     <div class="flex flex-wrap py-4">
         <ul class="list-reset">
             <?php
-      $query = new WP_Query( array( 'category_name' => 'writing'  ) );
+      $query = new WP_Query( array( 'category_name' => 'writing', 'posts_per_page' => 4  ) );
       while ($query->have_posts() ) : $query -> the_post();
         $title = get_the_title();
         $date = get_the_date();
