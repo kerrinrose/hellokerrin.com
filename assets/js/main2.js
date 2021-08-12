@@ -9,8 +9,8 @@ ScrollReveal().reveal('header' , {delay: 0, duration: 1000 });
 setTimeout(function(){ 
 
     var typed = new Typed('#type', {
-        strings: ["a UX designer", "multi-disciplinary", "a plant lover", "a ceramic artist", " a digital designer", "a content strategist", "a lefty", "a skier",
-                    "a motion designer", "a web developer", "an introvert", "a phonomenal woman", "a book lover", "a vegetarian", "a jersey girl" ],
+        strings: ["a UX designer", "multi-disciplinary", "a plant lover", " a digital designer", "a content strategist", "a lefty", "a skier",
+                    "a motion designer", "a web developer", "an introvert", "a phenomenal woman", "a book lover", "a vegan", "a jersey girl" ],
         typeSpeed: 70,
         shuffle: true,
         backDelay: 3000,
