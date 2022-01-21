@@ -30,8 +30,11 @@
 
 <div class="fade-1 flex flex-wrap my-24 ">
 
-    <h2>work</h2>
-    <ul class="list-reset">
+
+    <h2>work in the wild</h2>
+    <p class="mb-10">An archive of many of the projects I've touched living out there on the internet. <a
+            href="/contact/">Contact me</a> if you're interesting in more in-depth case studies.</p>
+    <ul class="list-reset list-decimal">
         <?php
       $query = new WP_Query( array( 'category_name' => 'work', 'posts_per_page' => 4 ) );
       while ($query->have_posts() ) : $query -> the_post();
