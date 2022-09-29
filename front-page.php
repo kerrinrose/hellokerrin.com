@@ -43,7 +43,8 @@
         $external = get_post_meta($post->ID, "external_link", true);
         ?><li class=" py-4">
             <h3 class="font-normal leading-normal pb-3"><?php echo get_post_meta($post->ID, "skills", true); ?> for <a
-                    href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title ?></a>
+                    href="<?php if($external) { echo $external;} else { the_permalink();} ?>"
+                    <?php if($external) { echo " target='_blank' ";}?>><?php echo $title ?></a>
             </h3>
         </li>
 
