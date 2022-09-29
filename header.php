@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Kerrin McLaughlin - UX Designer and Researcher</title>
+    <title>Kerrin Whipple - UX Designer and Researcher</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/assets/css/main.css">
@@ -23,7 +23,7 @@
     <header class="load-hidden">
         <nav class="flex flex-wrap justify-between py-4">
             <a class="no-underline " href="<?php echo get_home_url();?>"><span
-                    class="font-munro text-black text-2xl">kerrin mclaughlin</span></a>
+                    class="font-munro text-black text-2xl">kerrin whipple</span></a>
             <ul class="list-reset flex">
                 <li class="mr-6"><a href="<?php echo get_home_url();?>/category/work">work</a></li>
                 <li class="mr-6"><a href="<?php echo get_home_url();?>/category/writing">writing</a></li>
