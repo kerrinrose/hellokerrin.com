@@ -1,11 +1,19 @@
 <?php get_header(); ?>
 
 
+<<<<<<< HEAD
 <div class="mt-32 mb-24 flex flex-wrap leading-none items-center justify-left">
     <h1 class="fade-1 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">hello world!</h1>
     <br>
     <h1 class="header-2 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">i'm kerrin.</h1>
     <h2 class="header-3 h-48 load-hidden">i am <span id="type">a UX designer</span></h2>
+=======
+<div class="my-32 flex flex-wrap leading-none items-center justify-left">
+    <h1 class="fade-1 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">hellos world!</h1>
+    <br>
+    <h1 class="header-2 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">i'm kerrin.</h1>
+    <h2 class="header-3 h-44 load-hidden">i am <span id="type">a UX designer</span></h2>
+>>>>>>> 7c92414c9ec0304de61c5bc5aae5cd44ffbe7ed4
 
 </div>
 
@@ -43,7 +51,8 @@
         $external = get_post_meta($post->ID, "external_link", true);
         ?><li class=" py-4">
             <h3 class="font-normal leading-normal pb-3"><?php echo get_post_meta($post->ID, "skills", true); ?> for <a
-                    href="<?php if($external) { echo $external;} else { the_permalink();} ?>"><?php echo $title ?></a>
+                    href="<?php if($external) { echo $external;} else { the_permalink();} ?>"
+                    <?php if($external) { echo " target='_blank' ";}?>><?php echo $title ?></a>
             </h3>
         </li>
 
