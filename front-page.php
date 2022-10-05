@@ -5,7 +5,7 @@
     <h1 class="fade-1 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">hellos world!</h1>
     <br>
     <h1 class="header-2 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">i'm kerrin.</h1>
-    <h2 class="header-3 load-hidden">i am <span id="type">a UX designer</span></h2>
+    <h2 class="header-3 h-44 load-hidden">i am <span id="type">a UX designer</span></h2>
 
 </div>
 
