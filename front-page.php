@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 
-<div class="my-32 flex flex-wrap leading-none items-center justify-left">
+<div class="mt-32 mb-24 flex flex-wrap leading-none items-center justify-left">
     <h1 class="fade-1 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">hello world!</h1>
     <br>
     <h1 class="header-2 w-full  sm:text-4xl md:text-5xl tracking-wide font-munro load-hidden">i'm kerrin.</h1>
-    <h2 class="header-3 load-hidden">i am <span id="type">a UX designer</span></h2>
+    <h2 class="header-3 h-48 load-hidden">i am <span id="type">a UX designer</span></h2>
 
 </div>
 
