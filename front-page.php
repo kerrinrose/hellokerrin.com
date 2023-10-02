@@ -18,11 +18,14 @@
             I'm a User Experience Designer and Researcher, mainly, but I'm interested in all things related to digital
             design and code. I studied Interactive Multimedia, the perfect fusion
             of design and technology, and the program has left me with an unremitting desire to create. I've since
-            returned to my alma mater as a professor of interaction design and web development. I'm a certified <a
+            returned to my alma mater as a professor of interaction design and web development. </p>
+
+        <p> I'm a certified Web Accessibility Specialist with <a
                 href="https://www.credly.com/badges/bbc87ad0-6faa-402d-8138-66c4c86ac345/linked_in?t=ry057s"
-                target="_blank">Web Accessibility Specialist with IAAP</a>
-            and <a href="https://www.nngroup.com/ux-certification/people/" target="_blank">UX Certified (Research
-                Specialization) with Nielsen Norman Group</a>, both which represent my commitment to life long learning.
+                target="_blank">IAAP</a>
+            and UX Certified (Research
+            Specialization) <a href="https://www.nngroup.com/ux-certification/people/" target="_blank">with Nielsen
+                Norman Group</a>, both which represent my commitment to life long learning.
             I work full time in the digital agency world, but I'm available for select freelance projects or volunteer
             opportunities. I’m eager to make my small dent in the universe.
 
